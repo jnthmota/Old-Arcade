@@ -1,5 +1,5 @@
 # Old-Arcade
-## SUPER FLIPERAMA DONATO X3000
+## SUPER ARCADE DONATO X3000
 
 
 ![](Images/78309.jpg)
