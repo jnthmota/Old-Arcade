@@ -12,7 +12,7 @@ while jogar_novamente == "F":
 jogar_novamente = "N"
 while jogar_novamente == "N":
     
-    print("SEJA BEM-VINDO AO FLIPERAMA DONATO X3000")
+    print("SEJA BEM-VINDO AO  SUPER FLIPERAMA DONATO X3000")
     nome = str(input("Digite o seu lindo nome: "))
     print(f"Ola {nome}! Fico feliz que veio testar meu fliperama!")
     sleep(1.0)
