@@ -12,15 +12,15 @@ while jogar_novamente == "F":
 jogar_novamente = "N"
 while jogar_novamente == "N":
     
-    print("SEJA BEM-VINDO AO  SUPER FLIPERAMA DONATO X3000")
+    print("\033[1;34mSEJA BEM-VINDO AO FLIPERAMA DONATO X3000\033[m")
     nome = str(input("Digite o seu lindo nome: "))
-    print(f"Ola {nome}! Fico feliz que veio testar meu fliperama!")
+    print(f"Ola \033[1;31m{nome}!\033[m Fico feliz que veio testar meu \033[1;32mfliperama!\033[m")
     sleep(1.0)
     print("Vamos jogar!!!")
     print("""
-    [ 1 ] JOKENPO
-    [ 2 ] JOGO DA ADIVINHAÇÃO
-    [ 3 ] Par ou Impar
+    \033[1;33m[ 1 ] JOKENPO\033[m
+    \033[1;92m[ 2 ] JOGO DA ADIVINHAÇÃO\033[m
+    \033[1;96m[ 3 ] Par ou Impar\033[m
     """)
 
 
@@ -29,7 +29,7 @@ while jogar_novamente == "N":
 
 
 # Tocador de musica
-
+    print("Para inserir uma ficha digite o numero \033[1;33m1\033[m")
     musica = int(input("Insira um ficha: "))
     print("3...")
     sleep(0.5)
@@ -42,6 +42,7 @@ while jogar_novamente == "N":
         mixer.init()
         mixer.music.load("TopGearSong.mp3")
         mixer.music.play()
+     
         
 
 
@@ -95,7 +96,7 @@ while jogar_novamente == "N":
                     print("EMPATE!")    
                 else:
                     print("JOGADA INVÁLIDA")
-            jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: S para Sim \nN para escolher outro jogo \nF para finalizar: ")).strip().upper()[0]        
+            jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: \033[1;32mS para Sim\033[m \n\033[1;34mN para escolher outro jogo\033[m \n\033[1;31mF para finalizar:\033[m] ")).strip().upper()[0]        
 
 
 
@@ -120,7 +121,7 @@ while jogar_novamente == "N":
                     elif jogador > computador:
                         print("Menos...")
             print(f"\033[1;34mAcertou com {palpites} tentativas\033[m")
-            jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: S para Sim \nN para escolher outro jogo \nF para finalizar: ")).strip().upper()[0] 
+            jogar_novamentefrerr = str(input("Deseja jogar este jogo novamente? \nTecle: \033[1;32mS para Sim\033[m \n\033[1;34mN para escolher outro jogo\033[m \n\033[1;31mF para finalizar:\033[m] ")).strip().upper()[0] 
 
 
 # Par ou Impar
@@ -154,6 +155,5 @@ while jogar_novamente == "N":
                         break
                 print("Vamos jogar novamente")
             print(f"Gamer Over! Voce venceu {v} vezes")
-            jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: S para Sim \nN para escolher outro jogo \nF para finalizar: ")).strip().upper()[0] 
+            jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: \033[1;32mS para Sim\033[m \n\033[1;34mN para escolher outro jogo\033[m \n\033[1;31mF para finalizar:\033[m] ")).strip().upper()[0] 
               
-        
