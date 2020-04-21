@@ -5,8 +5,9 @@
 ![](Images/78309.jpg)
 
 
-- Programa que eu fiz baseado em um fliperama (Arcade) antigo da decada de 1970, tem o objetivo de o usuario ter uma nostalgia da infancia dele. Obviamente pessoas com mais de 30 anos terão essa nostalgia >_<
+- Program that I made based on an old arcade (Arcade) from the 1970s, aims to give the user a nostalgia for his childhood. Obviously people over 30 will have this nostalgia >_<
 
-- Esse vai ser um dos meus melhores projetos, vou estar atualizando ele sempre pra deixar mais divertido
+
+- This is going to be one of my best projects, I will always be updating it to make it more fun
 
 Enjoy!!!
