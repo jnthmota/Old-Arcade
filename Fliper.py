@@ -3,8 +3,6 @@ from random import randint
 from time import sleep
 
 # Inicio
-
-
 jogar_novamente = "J"
 while jogar_novamente == "J":
     break
@@ -23,10 +21,7 @@ while jogar_novamente == "N":
     \033[1;96m[ 3 ] Par ou Impar\033[m
     """)
 
-
-
     jogar = int(input("Digite o numero do jogo que você deseja jogar :) "))
-
 
 # Tocador de musica
     print("Para inserir uma ficha digite o numero \033[1;33m1\033[m")
@@ -42,13 +37,8 @@ while jogar_novamente == "N":
         mixer.init()
         mixer.music.load("TopGearSong.mp3")
         mixer.music.play()
-     
-        
-
-
+           
 # JOKENPO
-
-
     if jogar == 1:
         jogar_novamente = "S"
         while jogar_novamente == "S":
@@ -97,7 +87,6 @@ while jogar_novamente == "N":
                 else:
                     print("JOGADA INVÁLIDA")
             jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: \033[1;32mS para Sim\033[m \n\033[1;34mN para escolher outro jogo\033[m \n\033[1;31mF para finalizar:\033[m] ")).strip().upper()[0]        
-
 
 
 # Jogo da adivinhação
