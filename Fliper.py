@@ -37,13 +37,8 @@ while jogar_novamente == "N":
         mixer.init()
         mixer.music.load("TopGearSong.mp3")
         mixer.music.play()
-     
-        
-
-
+           
 # JOKENPO
-
-
     if jogar == 1:
         jogar_novamente = "S"
         while jogar_novamente == "S":
@@ -92,7 +87,6 @@ while jogar_novamente == "N":
                 else:
                     print("JOGADA INVÁLIDA")
             jogar_novamente = str(input("Deseja jogar este jogo novamente? \nTecle: \033[1;32mS para Sim\033[m \n\033[1;34mN para escolher outro jogo\033[m \n\033[1;31mF para finalizar:\033[m] ")).strip().upper()[0]        
-
 
 
 # Jogo da adivinhação
