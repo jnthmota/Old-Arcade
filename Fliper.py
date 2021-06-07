@@ -5,8 +5,8 @@ from time import sleep
 # Inicio
 
 
-jogar_novamente = "F"
-while jogar_novamente == "F":
+jogar_novamente = "J"
+while jogar_novamente == "J":
     break
     
 jogar_novamente = "N"
